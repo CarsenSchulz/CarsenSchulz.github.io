@@ -4687,3 +4687,19 @@ input, select, textarea {
 		}
 
 	}
+
+	.two-columns {
+		column-count: 2;
+		column-gap: 50px; /* Adjust the gap between columns as needed */
+	}
+	
+	.two-columns li {
+		break-inside: avoid; /* Prevents column breaks inside list items */
+		margin: 0; /* Remove default margin */
+		padding: 0; /* Remove default padding */
+	}
+	
+	.two-columns p {
+		margin: 5px 0; /* Adjust the margin between lines */
+	}
+	
